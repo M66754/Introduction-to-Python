@@ -1,0 +1,5 @@
+one = int(input("Enter the 1st number of the sum : "))
+two = int(input("Enter the 2nd number of the sum : "))
+three = int(input("Enter the 3rd number of the sum : "))
+answer = one + two + three
+print("That equals : " , answer)
