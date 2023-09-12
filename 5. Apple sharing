@@ -1,0 +1,4 @@
+n = int(input("amount of apples: "))
+k = int(input("amount of students: "))
+ans = n/k
+print(ans)
