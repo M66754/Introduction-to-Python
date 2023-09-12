@@ -1,0 +1,5 @@
+a = int(input("give an integer: "))
+next = a + 1
+previous = a - 1
+print("the next number is: " , next)
+print("the previous number is: " , previous)
