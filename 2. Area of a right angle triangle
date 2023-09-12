@@ -1,0 +1,4 @@
+length = int(input("enter the length : "))
+base = int(input("enter the base : "))
+answer = 0.5 * base * length
+print("your area is : " , answer)
