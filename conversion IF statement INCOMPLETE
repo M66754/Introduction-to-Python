@@ -1,0 +1,21 @@
+#amount = float(input("how much money do you want to change?"))
+#currency = input("do you want to change to dollars or euros?")
+#dollars = float(currency) * 1.34
+#euros = float(currency) * 1.14
+#if dollars :
+#  print("you would get $", dollars)
+#elif euros :
+#  print("you would get £", euros)
+#else :
+#  print("this is not an option")
+
+amount = float(input("how much money do you want to change?"))
+currency = str(input("do you want to change to dollars or euros?"))
+if currency = ("dollars") :
+  converted = amount * 1.34
+  print("you would get $", converted)
+elif currency = "euros" :
+  converted = amount * 1.14
+  print("you would get £", converted)
+else :
+  print("this is not an option")
