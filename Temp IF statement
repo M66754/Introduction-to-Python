@@ -1,0 +1,7 @@
+temp = int(input("what is the tempurature? "))
+if temp < 15 :
+  print("wear a coat and gloves")
+elif temp < 20 :
+  print("wear a coat")
+else:
+  print("no coat or gloves")
