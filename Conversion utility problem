@@ -1,0 +1,31 @@
+#Conversion utility problem
+
+def feetToInches():
+    print("Enter the number of feet: ")
+    feet = getInput()
+    inches = feet * 12
+    print(feet, "feet is", inches, "inches")
+
+def inchesToFeet():
+    print("Enter the number of inches: ")
+    inches = getInput()
+    feet = inches / 12
+    print(inches, "inches is", feet, "feet")
+
+def Menu():
+    menuChoice = 0
+    while (menuChoice !=3):
+        print("1. Feet to inches")
+        print("2. Inches to feet")
+        print("3. Finish/Quit")
+        menuChoice = getInput()
+        if (menuChoice == 1):
+            feetToInches()
+        elif (menuChoice == 2):
+            inchesToFeet()
+        elif (menuChoice == 3):
+            print("Goodbye then")
+        else:
+            print("invalid stuff")
+        print("nooooooooooooooooooooooooooo")
+    
