@@ -1,4 +1,4 @@
-#Conversion utility problem
+#conversion utility problem
 
 def feetToInches():
     print("Enter the number of feet: ")
