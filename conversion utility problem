@@ -1,5 +1,20 @@
 #conversion utility problem
 
+def getInput():
+    Number = ""
+    DNumber = 0
+    ValidInput = False
+    while (not ValidInput):
+        Number = input(": ")
+        if (Number == ""):
+            ValidInput = True
+        elif Number.isnumeric():
+            ValidInput = True
+            DNumber = int(Number)
+        if (ValidInput == False):
+            print("Invalid input.")
+    return DNumber
+
 def feetToInches():
     print("Enter the number of feet: ")
     feet = getInput()
@@ -11,6 +26,8 @@ def inchesToFeet():
     inches = getInput()
     feet = inches / 12
     print(inches, "inches is", feet, "feet")
+
+
 
 def Menu():
     menuChoice = 0
@@ -24,8 +41,9 @@ def Menu():
         elif (menuChoice == 2):
             inchesToFeet()
         elif (menuChoice == 3):
-            print("Goodbye then")
+            print("Farewell then")
         else:
             print("invalid stuff")
-        print("nooooooooooooooooooooooooooo")
-    
+        print("_____________________________________________")
+        
+Menu()
